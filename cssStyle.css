@@ -1,0 +1,195 @@
+/*Global Element*/
+body,h1,h2,h3,p,td,quote,small,form,ul,li,ol,label{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+	margin-top:50px;
+	color:#0a014d;
+	font-size:20px; /*button and image text in the container*/
+	background-color:#dddddd;
+	text-align:center;
+}
+
+a, a:visited {
+	color:#007bc4;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+h1{
+	font-size:28px;
+	font-weight:bold;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+h2{
+	font-weight:normal;
+	font-size:20px;
+	text-align:center;
+}
+
+h4{
+	float:right;
+}
+
+ul{
+	margin:30px 0px;
+	display:flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: center;
+}
+
+li{
+	list-style:none;
+	display:block;
+	float:left;
+	width:150px;
+
+}
+
+p{
+    display: inline-block;
+}
+
+table {
+	margin: 0 auto;
+}
+
+th {
+	background-color: #dddddd;
+}
+
+/*Element Class*/
+.container{
+	background-color:#ffffff; /*the one inside the rounded box*/
+	padding:10px 20px 20px 20px;
+	border-radius:10px;
+	width:1000px;
+	margin:auto;
+}
+
+.hero{
+	margin:0px;
+	width: 80%;
+}
+
+.hero-text {
+    text-align: center;
+    color: gray;
+}
+
+.about{
+	text-align: left;
+}
+
+.clear{
+	clear:both;
+}
+
+
+ul.navigation li a{
+	padding:5px 10px;
+	text-align:center;
+	background-color:#6e7b8b;
+	color:#0a014d;
+
+	-moz-border-radius:5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:5px;
+
+	display:block;
+	margin-right:10px;
+}
+
+ul.navigation li a:hover{
+	background-color:#ffffff;
+	text-decoration:none;
+}
+
+.privacy{
+	color:white;
+}
+
+ul.courses li {
+        /* width: 290px*/
+        width: 435px;
+        display: inline-block;
+        vertical-align: top;
+}
+
+ul.courses li img {
+    float: left;
+    margin: auto;
+}
+
+ul.courses li a,li a:visited{
+	background-color:#ffffff;
+	text-decoration:none;
+	color:#0a014d;
+
+}
+
+ul.courses li a:hover{
+	background-color:#ffffff;
+	text-decoration:underline;
+}
+
+ul.courses li h4 {
+    font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+.currency {
+    text-align:right;
+}
+
+.btn {
+    float:right;
+}
+
+input.txtInput, select.txtInput {
+    margin: 0 auto;
+    width: 370px;
+}
+
+/*Element ID*/
+#rounded{
+
+	margin:auto;
+	text-align:center;
+}
+
+#pageContent{
+	margin-top:20px;
+	display: inline-block;
+	border:0px;
+	padding:10px;
+	width:900px;
+
+  	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#loading{
+	visibility:hidden;
+}
+
+
+
+
+
+
+
+
+

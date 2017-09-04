@@ -1,0 +1,34 @@
+{
+  "currencies": [
+    {
+        "name": "Singapore Dollar",
+        "code": "SGD",
+        "country":"SG",
+        "conversion": 1.0
+    },
+    {
+      "name": "Malaysian Ringgit",
+      "code": "MYR",
+      "country":"MY",
+      "conversion": 3.0
+    },
+    {
+      "name": "Indian Rupees",
+      "code": "INR",
+      "country":"IN",
+      "conversion": 45.5
+    },
+    {
+      "name": "Philippine Peso",
+      "code": "PHP",
+      "country":"PH",
+      "conversion": 20.0
+    },
+    {
+      "name": "Indonesian Rupiah",
+      "code": "IDR",
+      "country":"ID",
+      "conversion": 10000.0
+    }
+  ]
+}
